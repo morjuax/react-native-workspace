@@ -57,7 +57,7 @@ const Login = (props: LoginProps) => {
             onChangeText={(text) => setPassword(text)}
             secureTextEntry
           />
-          <TouchableOpacity style={styles.whatsNextButton} onPress={handleLogin}>
+          <TouchableOpacity style={styles.submitLoginButton} onPress={handleLogin}>
             <Text style={styles.textButton}>Iniciar sesión</Text>
           </TouchableOpacity>
         </View>
@@ -115,12 +115,14 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     width: '100%',
   },
-  whatsNextButton: {
+  submitLoginButton: {
     backgroundColor: '#22282d',
     paddingVertical: 16,
     borderRadius: 8,
     width: '50%',
     marginTop: 24,
+    alignItems: 'center',
+    alignSelf: 'center'
   },
   textButton: {
     color: '#ffffff'
