@@ -23,11 +23,12 @@ const Login = (props: LoginProps) => {
   const handleLogin = () => {
     if (!email || !password) {
       Alert.alert('Error', 'Por favor ingrese su email y contraseña');
-    } else {
-      // Aquí iría la lógica de autenticación con el backend
-      console.log('Email:', email);
-      console.log('Password:', password);
+      return;
     }
+
+    // Aquí iría la lógica de autenticación con el backend
+    console.log('Email:', email);
+    console.log('Password:', password);
   };
 
   return (
