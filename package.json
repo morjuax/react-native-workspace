@@ -2,7 +2,9 @@
   "name": "react-native-workspace",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start:ios": "npx nx run login-app:run-ios"
+  },
   "private": true,
   "dependencies": {
     "react": "18.2.0",

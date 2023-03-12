@@ -2,7 +2,7 @@
 
 # compiled output
 dist
-tmp
+tmp0
 /out-tsc
 
 # dependencies
@@ -172,6 +172,7 @@ yarn-error.log
 # Ruby / CocoaPods
 /ios/Pods/
 /vendor/bundle/
+Pods
 
 # Temporary files created by Metro to check the health of the file watcher
 .metro-health-check*

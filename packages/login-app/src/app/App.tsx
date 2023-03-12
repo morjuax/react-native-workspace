@@ -11,6 +11,7 @@ import {
   Linking,
 } from 'react-native';
 import Svg, { Path } from 'react-native-svg';
+import Login from "./login/login";
 
 export const App = () => {
   const [whatsNextYCoord, setWhatsNextYCoord] = useState<number>(0);
@@ -18,6 +19,7 @@ export const App = () => {
 
   return (
     <>
+      {/*<Login></Login>*/}
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView
